@@ -1,3 +1,16 @@
+:root {
+  --main-color: grey;
+  --section-color: pink;
+}
+
 h1 {
-  color: blue;
+  font-size: 90px;
+}
+
+h2 {
+}
+
+.hero {
+  background-color: var(--main-color);
+  padding: 160px 30px;
 }
