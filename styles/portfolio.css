@@ -1,16 +1,43 @@
 :root {
-  --main-color: grey;
-  --section-color: pink;
+  --main-font-color: #85ccfc;
+  --main-color: #c6c6c6;
 }
-
+body {
+}
 h1 {
   font-size: 90px;
 }
-
 h2 {
+}
+h3 {
+  text-align: center;
+  font-size: 50px;
 }
 
 .hero {
+  padding: 100px 30px 30px;
+}
+.weather-container {
+  text-align: center;
+  border: 1px solid var(--main-color);
   background-color: var(--main-color);
-  padding: 160px 30px;
+  margin: 30px;
+  border-radius: 4px;
+
+  padding: 30px;
+}
+
+.weather-container h4 {
+  font-size: 30px;
+}
+
+.weather-container a {
+  text-decoration: none;
+  color: black;
+}
+
+.button {
+  border: 1px solid black;
+  padding: 10px 30px;
+  border-radius: 4px;
 }
