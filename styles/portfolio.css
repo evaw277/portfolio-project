@@ -13,7 +13,8 @@ h3 {
   text-align: center;
   font-size: 50px;
 }
-
+img {
+}
 .hero {
   padding: 100px 30px 30px;
 }
@@ -21,10 +22,10 @@ h3 {
   text-align: center;
   border: 1px solid var(--main-color);
   background-color: var(--main-color);
-  margin: 30px;
+  margin: 30px 150px;
   border-radius: 4px;
 
-  padding: 30px;
+  padding: 30px 90px;
 }
 
 .weather-container h4 {
@@ -40,4 +41,25 @@ h3 {
   border: 1px solid black;
   padding: 10px 30px;
   border-radius: 4px;
+}
+
+@media (max-width: 976px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+  .hero {
+    padding: 30px;
+  }
+  .weather-container {
+    margin: 10px;
+    padding: 10px;
+  }
 }
