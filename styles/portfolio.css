@@ -1,20 +1,55 @@
 :root {
-  --main-font-color: #85ccfc;
-  --main-color: #c6c6c6;
+  --main-font-color: #ffecef;
+  --secondary-font-color: #ffcaca;
+  --main-color: #372948;
+  --background-color: #251b37;
 }
 body {
+  background: var(--background-color);
 }
 h1 {
   font-size: 90px;
+  color: var(--main-font-color);
 }
 h2 {
+  color: var(--secondary-font-color);
 }
 h3 {
   text-align: center;
   font-size: 50px;
+  color: var(--main-font-color);
+}
+h4 {
+  color: var(--main-font-color);
+}
+hr {
+  color: white;
+}
+p {
+  color: var(--secondary-font-color);
 }
 img {
 }
+nav ul {
+  margin: 0;
+  padding: 30px 0;
+}
+nav li {
+  font-size: 18px;
+  display: inline;
+  margin-right: 40px;
+}
+nav a {
+  color: var(--secondary-font-color);
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  font-weight: bolder;
+  color: var(--secondary-font-color);
+}
+
 .hero {
   padding: 100px 30px 30px;
 }
@@ -22,7 +57,7 @@ img {
   text-align: center;
   border: 1px solid var(--main-color);
   background-color: var(--main-color);
-  margin: 30px 150px;
+  margin: 30px 170px;
   border-radius: 4px;
 
   padding: 30px 90px;
@@ -34,13 +69,20 @@ img {
 
 .weather-container a {
   text-decoration: none;
-  color: black;
+  color: var(--background-color);
 }
 
 .button {
-  border: 1px solid black;
+  border: 1px solid var(--main-font-color);
   padding: 10px 30px;
   border-radius: 4px;
+  background: var(--main-font-color);
+}
+.about-hero {
+  padding: 30px;
+}
+.about-hero h1 {
+  font-size: 60px;
 }
 
 @media (max-width: 976px) {
