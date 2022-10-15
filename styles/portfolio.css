@@ -28,7 +28,8 @@ hr {
 p {
   color: var(--secondary-font-color);
 }
-img {
+i {
+  color: var(--main-font-color);
 }
 nav ul {
   margin: 0;
@@ -51,7 +52,7 @@ nav li.active a {
 }
 
 .hero {
-  padding: 100px 30px 30px;
+  padding: 80px 100px 30px;
 }
 .weather-container {
   text-align: center;
@@ -96,6 +97,12 @@ nav li.active a {
 
   h3 {
     font-size: 30px;
+  }
+  nav li {
+    margin-right: 18px;
+  }
+  nav i {
+    margin-left: 14px;
   }
   .hero {
     padding: 30px;
