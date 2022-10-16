@@ -33,12 +33,13 @@ i {
 }
 nav ul {
   margin: 0;
-  padding: 30px 0;
+  padding: 30px 80px;
+  background: var(--main-color);
 }
 nav li {
   font-size: 18px;
   display: inline;
-  margin-right: 40px;
+  margin-left: 40px;
 }
 nav a {
   color: var(--secondary-font-color);
@@ -52,7 +53,7 @@ nav li.active a {
 }
 
 .hero {
-  padding: 80px 100px 30px;
+  padding: 40px 10px 10px;
 }
 .weather-container {
   text-align: center;
@@ -98,11 +99,11 @@ nav li.active a {
   h3 {
     font-size: 30px;
   }
-  nav li {
-    margin-right: 18px;
+  nav ul {
+    padding: 30px 20px;
   }
-  nav i {
-    margin-left: 14px;
+  nav li {
+    margin-left: 10px;
   }
   .hero {
     padding: 30px;
