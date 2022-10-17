@@ -3,16 +3,20 @@
   --secondary-font-color: #ffcaca;
   --main-color: #372948;
   --background-color: #251b37;
+  --main-font: monospace;
 }
 body {
   background: var(--background-color);
+  font-family: var(--main-font);
 }
 h1 {
   font-size: 90px;
   color: var(--main-font-color);
+  font-family: var(--main-font);
 }
 h2 {
   color: var(--secondary-font-color);
+  font-family: var(--main-font);
 }
 h3 {
   text-align: center;
@@ -29,6 +33,7 @@ hr {
 p {
   color: var(--secondary-font-color);
 }
+
 nav i {
   color: var(--main-font-color);
 }
@@ -59,7 +64,7 @@ nav li.active a {
 .weather-container {
   text-align: center;
   border: 1px solid var(--main-color);
-  background-color: var(--main-color);
+  background: var(--main-color);
   margin: 30px;
   border-radius: 4px;
   padding: 30px 150px;
@@ -87,7 +92,11 @@ nav li.active a {
 }
 
 .about-hero {
-  padding: 100px;
+  background: var(--main-color);
+  border: 1px solid var(--main-color);
+  padding: 30px 80px;
+  margin: 40px;
+  border-radius: 4px;
 }
 .about-hero h1 {
   font-size: 50px;
@@ -135,6 +144,7 @@ footer .social-links a:hover {
   background: var(--secondary-font-color);
   transition: all 100ms ease-in-out;
 }
+
 footer p {
   font-size: 20px;
 }
@@ -155,13 +165,20 @@ footer p {
     padding: 30px 20px;
   }
   nav li {
-    margin-left: 30px;
+    margin-left: 24px;
   }
   .hero {
     padding: 30px;
   }
   .weather-container {
     margin: 10px;
-    padding: 10px;
+    padding: 26px;
+  }
+  .about-hero {
+    padding: 30px;
+    margin: 20px 10px;
+  }
+  .about-hero h1 {
+    font-size: 40px;
   }
 }
