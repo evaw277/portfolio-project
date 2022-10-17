@@ -60,14 +60,16 @@ nav li.active a {
   text-align: center;
   border: 1px solid var(--main-color);
   background-color: var(--main-color);
-  margin: 30px 170px;
+  margin: 30px;
   border-radius: 4px;
-
-  padding: 30px 90px;
+  padding: 30px 150px;
 }
 
 .weather-container h4 {
   font-size: 30px;
+}
+.weather-container img {
+  margin: 0 auto;
 }
 
 .button {
@@ -85,10 +87,22 @@ nav li.active a {
 }
 
 .about-hero {
-  padding: 30px;
+  padding: 100px;
 }
 .about-hero h1 {
-  font-size: 60px;
+  font-size: 50px;
+  text-align: center;
+}
+.contact-links h3 {
+  font-size: 40px;
+  text-align: left;
+}
+.contact-links a {
+  text-decoration: none;
+  color: var(--secondary-font-color);
+}
+.contact-links a:hover {
+  color: var(--main-font-color);
 }
 footer {
   margin: 60px 0;
@@ -98,6 +112,7 @@ footer .contact-box {
   background: var(--main-color);
   border-radius: 10px;
   padding: 30px 150px;
+  margin: 30px;
 }
 footer .email-link {
   text-decoration: none;
@@ -140,7 +155,7 @@ footer p {
     padding: 30px 20px;
   }
   nav li {
-    margin-left: 10px;
+    margin-left: 30px;
   }
   .hero {
     padding: 30px;
